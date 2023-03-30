@@ -157,7 +157,6 @@ $count = 1;
 $result = array(
     "svg" => str_replace('stroke="none" stroke-width="0"', 'stroke="#808080" stroke-width="1" stroke-dasharray="2,2"', $svg, $count),
     "geo" => file_get_contents("{$title}_geo.json"),
-    "path" => $path,
     "zip" => "{$title}.zip",
     "mld" => array(),
   "title" => $title,
